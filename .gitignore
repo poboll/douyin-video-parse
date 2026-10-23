@@ -1,0 +1,17 @@
+# 本机工作目录
+.workbuddy-ai/
+# 抓取产物（体积大且含内容，不入库）
+*.mdl
+*.mdlnodeconf
+*.pcm
+*.h265
+*.wav
+*.m4a
+*.mp4
+*.mov
+# frida 大二进制（可重新下载）
+*.deb
+frida-gadget.dylib
+frida_server_ios.deb
+# 编译产物（源码在，build.sh 可重建）
+*.dylib
